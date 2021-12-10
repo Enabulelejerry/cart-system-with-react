@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 0.875rem;
+  }
+
+  .cart{
+      margin: 0 auto;
+  
+      height:93vh;
+    
+  }
+
+
+  header h2{
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 3rem;
+      text-transform: uppercase;
+  }
+
+  .total-container{
+      width:50%;
+      margin: 0 auto;
+     
+  }
+
+  hr{
+     
+      background:#617d98;;
+      border-color: transparent;
+      border-width: 0.25px;
+  }
+
+  .total-items{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      padding: 0.65rem 6.5rem;
+  }
+
+  .total-items h4{
+   
+    letter-spacing: 0.25rem;
+    font-size: 1.25rem;
+  }
+
+  .total-container button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1.5rem auto;
+      font-size: 1rem;
+      letter-spacing: 0.35rem;
+      padding: 5px 15px;
+      background: transparent;
+      border-color: hsl(360, 71%, 66%);
+      color: hsl(360, 71%, 66%);
+      transition: all 0.3s ease;
+  }
+
+  .total-container button:hover{
+    border-color: hsl(360, 67%, 44%);
+    color: hsl(360, 67%, 44%);
+  }
+
+
+  .empty-cart{
+      text-align: center;
+      letter-spacing: 0.35rem;
+      
+  }
+
+  .loading{
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 3.5rem;
+  }
